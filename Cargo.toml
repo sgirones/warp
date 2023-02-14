@@ -35,7 +35,7 @@ serde_urlencoded = "0.7"
 tokio = { version = "1.0", features = ["fs", "sync", "time"] }
 tokio-stream = "0.1.1"
 tokio-util = { version = "0.7", features = ["io"] }
-tracing = { version = "0.1.21", default-features = false, features = ["log", "std"] }
+tracing = { git = "https://github.com/tokio-rs/tracing.git", features = ["log", "std"] }
 tower-service = "0.3"
 tokio-tungstenite = { version = "0.17", optional = true }
 percent-encoding = "2.1"
